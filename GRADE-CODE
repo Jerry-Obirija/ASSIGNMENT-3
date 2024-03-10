@@ -1,0 +1,18 @@
+<?php
+// declare an associative array of courses and scores
+$courses = array(
+  "COM 411" => 85,
+  "COM 412" => 90,
+  "COM 413" => 75,
+  "COM 414" => 80,
+  "COM 415" => 70,
+  "EED 401" => 95,
+  "GNS 401" => 88,
+);
+
+// use a for loop to iterate over the array keys
+foreach ($courses as $course => $score) {
+  // print the course name and the score
+  echo "$course: $score\n";
+}
+?>
